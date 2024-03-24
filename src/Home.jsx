@@ -114,8 +114,10 @@ export const Home = () => {
         </div>
         <div className="w-full h-full">
           <div className="flex flex-col text-center justify-center items-center mt-72">
-            <p className="text-2xl">Not connected to any server</p>
-            <p className="text-lg">Please connect to one</p>
+            <p className="text-2xl text-white/70 font-medium">Not connected to a server</p>
+            <p className="text-lg text-white/60">
+              Please connect to one
+            </p>
           </div>
         </div>
       </div>
